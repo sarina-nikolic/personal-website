@@ -28,7 +28,7 @@ h1 {
   padding: 20px;
   flex-direction: column;
   justify-content: space-evenly;
-  flex-wrap: wrap;
   background-color: lightskyblue;
+  flex-wrap: wrap;
   color: royalblue;
 }
