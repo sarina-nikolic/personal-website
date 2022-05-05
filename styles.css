@@ -22,3 +22,13 @@ h1 {
   background-color: pink;
   border: solid;
 }
+.stationen {
+  border: 2px solid cornflowerblue;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: lightskyblue;
+  color: royalblue;
+}
