@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: skyblue;
+  font-family: Monaco;
+}
+
+.button {
+  text-decoration: none;
+  color: skyblue;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  border: solid;
+  border-color: rgb(57, 118, 210);
+}
+.schoenebox {
+  padding: 30px;
+  color: hotpink;
+  background-color: pink;
+  border: solid;
+}
