@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
 }
 
 header {
@@ -10,7 +11,7 @@ header {
 
 h1 {
   color: skyblue;
-  font-family: Monaco;
+  font-family: Monaco, sans serif;
   align-self: center;
 }
 
