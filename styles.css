@@ -2,15 +2,28 @@
   box-sizing: border-box;
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
 h1 {
   color: skyblue;
   font-family: Monaco;
+  align-self: center;
+}
+
+nav {
+  align-self: center;
 }
 
 img {
   height: 15rem;
   width: 15rem;
   margin: 20px;
+  border-radius: 1000px;
+  align-self: center;
 }
 
 .button {
@@ -21,6 +34,7 @@ img {
   background-color: aliceblue;
   border: 0 solid;
   border-radius: 10px;
+  align-self: center;
 }
 
 .schoenebox {
