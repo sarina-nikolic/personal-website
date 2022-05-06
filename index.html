@@ -6,18 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
+    <title>Sarina Nikolic Web Dev Student</title>
   </head>
   <body>
-    <main>
+    <header>
       <h1>Sarina Nikolić</h1>
       <nav>
-        <a href="#Über  mich" class="button">Über mich</a>
+        <a href="#Über mich" class="button">Über mich</a>
         <a href="#Kontakt" class="button">Kontakt</a>
         <a href="#Lebenslauf" class="button">Lebenslauf</a>
       </nav>
 
-      <img src="images/me.jpg" alt="">
-      <section class="schoenebox">
+      <img class="images" src="images/me.jpg" alt="" />
+    </header>
+
+    <main>
+      <section id="Über mich" class="schoenebox">
+        <a class="button">Über mich</a>
         <p>Lorem ipsum dolor sit amet.</p>
         Ich mag gerne:
         <ul>
@@ -27,15 +32,15 @@
           <li>Schach</li>
         </ul>
       </section>
-      <section>
-        <a id="Kontakt" class="button">Kontakt</a>
+
+      <section id="Kontakt" class="schoenebox">
+        <a class="button">Kontakt</a>
         <p>sarina.nikolic@gmail.com</p>
       </section>
 
-      <section>
-        <a id="Lebenslauf" class="button">Lebenslauf</a>
-
-        <ul class="stationen">
+      <section id="Lebenslauf" class="schoenebox">
+        <a class="button">Lebenslauf</a>
+        <ul>
           <li>Master of Arts Mehrsprachigkeit und Bildung</li>
           <li>Bachelor of Arts Literatur- und Sprachwissenschaft</li>
           <li>Bankkauffrau (IHK)</li>

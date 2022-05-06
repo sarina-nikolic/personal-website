@@ -15,13 +15,12 @@ img {
 
 .button {
   text-decoration: none;
+  padding: 8px;
   margin: 20px;
   color: skyblue;
-  padding: 8px;
-  border-radius: 10px;
   background-color: aliceblue;
-  border: solid;
-  border-color: rgb(57, 118, 210);
+  border: 0 solid;
+  border-radius: 10px;
 }
 
 .schoenebox {
@@ -30,6 +29,7 @@ img {
   color: royalblue;
   background-color: lightskyblue;
   border: 2px solid cornflowerblue;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   flex-direction: column;
