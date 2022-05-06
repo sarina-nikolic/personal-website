@@ -7,8 +7,15 @@ h1 {
   font-family: Monaco;
 }
 
+img {
+  height: 15rem;
+  width: 15rem;
+  margin: 20px;
+}
+
 .button {
   text-decoration: none;
+  margin: 20px;
   color: skyblue;
   padding: 8px;
   border-radius: 10px;
@@ -16,19 +23,16 @@ h1 {
   border: solid;
   border-color: rgb(57, 118, 210);
 }
+
 .schoenebox {
-  padding: 30px;
-  color: hotpink;
-  background-color: pink;
-  border: solid;
-}
-.stationen {
+  padding: 2px;
+  margin: 10px;
+  color: royalblue;
+  background-color: lightskyblue;
   border: 2px solid cornflowerblue;
   display: flex;
-  padding: 20px;
+  justify-content: center;
   flex-direction: column;
-  justify-content: space-evenly;
   flex-wrap: wrap;
-  background-color: lightskyblue;
-  color: royalblue;
+  align-items: center;
 }
