@@ -30,7 +30,6 @@ img {
 .button {
   text-decoration: none;
   padding: 8px;
-  margin: 20px;
   color: skyblue;
   background-color: aliceblue;
   border: 0 solid;
@@ -39,7 +38,7 @@ img {
 }
 
 .schoenebox {
-  padding: 2px;
+  padding: 20px;
   margin: 10px;
   color: royalblue;
   background-color: skyblue;
@@ -53,5 +52,12 @@ img {
 }
 
 .contact {
+  padding: 8px;
+  margin: 2px;
   text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
