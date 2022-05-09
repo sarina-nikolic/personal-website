@@ -1,20 +1,13 @@
-* {
-  box-sizing: border-box;
-  font-family: Lato, Times, serif;
-}
+@import "./global.css";
 
 header {
+  color: skyblue;
   display: flex;
   flex-direction: column;
   align-self: center;
 }
 
-h1 {
-  color: skyblue;
-  font-family: Monaco, sans serif;
-  align-self: center;
-}
-
+h1,
 nav {
   align-self: center;
 }
@@ -23,13 +16,14 @@ img {
   height: 15rem;
   width: 15rem;
   margin: 20px;
+  padding: 20px;
   border-radius: 1000px;
   align-self: center;
 }
 
 .button {
   text-decoration: none;
-  padding: 8px;
+  padding: 14px;
   color: skyblue;
   background-color: aliceblue;
   border: 0 solid;
